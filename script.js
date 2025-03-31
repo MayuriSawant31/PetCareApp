@@ -70,3 +70,11 @@ function logout() {
 function navigateTo(page) {
     window.location.href = page;
 }
+
+
+//for Services
+document.querySelectorAll('.dropdown-card').forEach(card => {
+    card.addEventListener('click', () => {
+        card.classList.toggle('active');
+    });
+});
