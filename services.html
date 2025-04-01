@@ -13,49 +13,49 @@
 
         <!-- Dropdown Menu for Care -->
         <div class="dropdown">
-            <div class="dropdown-card">
+            <div class="dropdown-card" onclick="toggleDropdown(this)">
                 <p class="dropdown-btn">🐶 Care</p>
                 <div class="dropdown-content">
-                    <p><a href="care.html">+ Feed</a></p>
-                    <p><a href="care.html">+ Play</a></p>
-                    <p><a href="care.html">+ Train</a></p>
-                    <p><a href="care.html">+ Walk</a></p>
+                    <p><a href="feed.html">+ Feed</a></p>
+                    <p><a href="play.html">+ Play</a></p>
+                    <p><a href="train.html">+ Train</a></p>
+                    <p><a href="walk.html">+ Walk</a></p>
                 </div>
             </div>
         </div>
 
         <!-- Dropdown Menu for Medical -->
         <div class="dropdown">
-            <div class="dropdown-card">
+            <div class="dropdown-card" onclick="toggleDropdown(this)">
                 <p class="dropdown-btn">⚕️ Medical</p>
                 <div class="dropdown-content">
-                    <p><a href="medical.html">+ Vaccinations</a></p>
-                    <p><a href="medical.html">+ Check-ups</a></p>
-                    <p><a href="medical.html">+ Emergency Care</a></p>
+                    <p><a href="vaccinations.html">+ Vaccinations</a></p>
+                    <p><a href="checkups.html">+ Check-ups</a></p>
+                    <p><a href="emergency.html">+ Emergency Care</a></p>
                 </div>
             </div>
         </div>
 
         <!-- Dropdown Menu for Hygiene -->
         <div class="dropdown">
-            <div class="dropdown-card">
+            <div class="dropdown-card" onclick="toggleDropdown(this)">
                 <p class="dropdown-btn">🛁 Hygiene</p>
                 <div class="dropdown-content">
-                    <p><a href="hygiene.html">+ Bath</a></p>
-                    <p><a href="hygiene.html">+ Grooming</a></p>
-                    <p><a href="hygiene.html">+ Nail Trim</a></p>
+                    <p><a href="bath.html">+ Bath</a></p>
+                    <p><a href="grooming.html">+ Grooming</a></p>
+                    <p><a href="nailtrim.html">+ Nail Trim</a></p>
                 </div>
             </div>
         </div>
 
         <!-- Dropdown Menu for Cleaning -->
         <div class="dropdown">
-            <div class="dropdown-card">
+            <div class="dropdown-card" onclick="toggleDropdown(this)">
                 <p class="dropdown-btn">🧼 Cleaning</p>
                 <div class="dropdown-content">
-                    <p><a href="cleaning.html">+ Pet Area</a></p>
-                    <p><a href="cleaning.html">+ Litter Box</a></p>
-                    <p><a href="cleaning.html">+ Pet Bedding</a></p>
+                    <p><a href="petarea.html">+ Pet Area</a></p>
+                    <p><a href="litterbox.html">+ Litter Box</a></p>
+                    <p><a href="petbedding.html">+ Pet Bedding</a></p>
                 </div>
             </div>
         </div>
@@ -63,6 +63,14 @@
         <button class="back-btn" onclick="navigateTo('dashboard.html')">Back</button>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        function toggleDropdown(element) {
+            element.classList.toggle("active");
+        }
+
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
 </body>
 </html>
