@@ -4,30 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - PetCare+</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/dashboard.css">
 </head>
 <body>
     <div class="dashboard">
-        <p class="greeting">Hi Alexa! <br> Good Morning..</p>
+        <p class="greeting">Hi Charliee! <br> Good Morning..</p>
         <div class="join-community">
-            <img src="assets/community.png" alt="Pet Lovers">
+            <img src="assets/icons/pet2.png" alt="Pet Lovers">
             <p>Join Our Pet Lover Community...</p>
-            <button class="join-btn">Join Now</button>
+        </div>
+        <div>
+            <button class="join-btn" onclick="navigateTo('join.html')" >Join Now</button>
+            
         </div>
 
         <div class="categories">
             <h2>Category</h2>
             <div class="icons">
-                <div class="icon"><img src="assets/icons/vet.png" alt="Vet"><p>Vet</p></div>
-                <div class="icon"><img src="assets/icons/grooming.png" alt="Grooming"><p>Grooming</p></div>
-                <div class="icon"><img src="assets/icons/food.png" alt="Food"><p>Food Diet</p></div>
+                <div class="icon">
+                    <a href="veterinary-services.html">
+                        <img src="assets/icons/vaternity.png" alt="Vet">
+                    </a>
+                    <p>Vet</p>
+                </div>
+                <div class="icon">
+                    <a href="grooming-services.html">
+                        <img src="assets/icons/grooming.webp" alt="Grooming">
+                    </a>
+                    <p>Grooming</p>
+                </div>
+                <div class="icon">
+                    <a href="food-diet.html">
+                        <img src="assets/icons/foodDiet.jpg" alt="Food Diet">
+                    </a>
+                    <p>Food Diet</p>
+                </div>
             </div>
         </div>
+        
 
+       
         <div class="nearby-vet">
-            <h2>Nearby Veterinarian</h2>
+            <h3>Nearby Vet <br/> <a href="veterinary-services.html" class="see-all">See All</a></h3>
+            
+            <div class="icon">
+                <img src="assets/icons/user-icon.jpg" alt="Veterinarian">
+                <p>Vet</p>
+            </div>
             <p>Dr. XYX <br> Specialist</p>
         </div>
+        
+        
 
         <button class="btn" onclick="navigateTo('services.html')">View Services</button>
     </div>
