@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fef3e7, #fde2c7);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    background: url('assets/icons/petcare_logo.png') no-repeat center center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff5ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .join-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .join-box {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    animation: fadeIn 0.6s ease;
+  }
+  
+  .paw-icon {
+    font-size: 50px;
+    color: #FFA500;
+    margin-bottom: 20px;
+    animation: bounce 1.5s infinite;
+  }
+  
+  .join-box h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  .join-box p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .join-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .join-form input[type="text"],
+  .join-form input[type="email"] {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .terms {
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+  }
+  
+  .terms input {
+    margin-right: 8px;
+  }
+  
+  .join-btn {
+    background-color: #FFA500;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .join-btn:hover {
+    background-color: #ff8c00;
+    transform: scale(1.05);
+  }
+  
+  .back-btn {
+    background-color: transparent;
+    color: #333;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Animations */
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-6px); }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
