@@ -1,0 +1,79 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Main container card */
+  .main-card {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 95%;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .main-card h1 {
+    font-size: 26px;
+    color: #ff8749;
+    margin-bottom: 20px;
+  }
+  
+  .main-card h1 i {
+    color: #4fc3f7;
+    margin-right: 10px;
+  }
+  
+  /* Service list */
+  .main-card ul {
+    list-style: none;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .main-card ul li {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .main-card ul li::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    color: #ff8749;
+    font-weight: bold;
+  }
+  
+  /* Back button */
+  .main-card button {
+    background: #ff9900;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .main-card button:hover {
+    background: #ff7a00;
+  }
+  
