@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pet Grooming</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="CSS/grooming-services.css" />
+</head>
+<body>
+  <div class="main-card">
+    <div class="grooming-container">
+      <h1><i class="fas fa-scissors"></i> Pet Grooming</h1>
+      <div class="services">
+
+        <!-- Bathing -->
+        <div class="service-card">
+          <img src="https://img.icons8.com/color/96/bath.png" alt="Bathing" />
+          <h3>Bathing</h3>
+          <p>Refreshing bath and blow dry for your pet.</p>
+          <span>$20 - 30 mins</span>
+          <button onclick="bookService('Bathing')">Book Now</button>
+        </div>
+
+        <!-- Haircut -->
+        <div class="service-card">
+          <img src="https://img.icons8.com/color/96/dog.png" alt="Haircut" />
+          <h3>Haircut</h3>
+          <p>Stylish trim and brushing for all breeds.</p>
+          <span>$30 - 45 mins</span>
+          <button onclick="bookService('Haircut')">Book Now</button>
+        </div>
+
+        <!-- Nail Trim -->
+        <div class="service-card">
+          <img src="https://img.icons8.com/color/96/nail.png" alt="Nail Trim" />
+          <h3>Nail Trim</h3>
+          <p>Quick and safe trimming of your pet's nails.</p>
+          <span>$10 - 15 mins</span>
+          <button onclick="bookService('Nail Trim')">Book Now</button>
+        </div>
+
+      </div>
+      <button class="back-btn" onclick="history.back()">← Back</button>
+    </div>
+  </div>
+
+  <script>
+    function bookService(service) {
+      alert(`✅ ${service} service booked successfully!`);
+    }
+  </script>
+</body>
+</html>
