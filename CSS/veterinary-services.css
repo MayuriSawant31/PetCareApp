@@ -30,6 +30,14 @@ body {
     margin-bottom: 20px;
 }
 
+h1 {
+    color: #ef9d06;
+}
+
+h2{
+    color: #FFA500;
+}
+
 /* Additional Styling for Vet Page */
 header {
     background: #007bff;

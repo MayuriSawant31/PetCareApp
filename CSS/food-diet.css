@@ -1,0 +1,95 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffaf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  /* Main Wrapper */
+  .main-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    max-width: 600px;
+  }
+  
+  /* Diet Section */
+  .diet-container {
+    text-align: center;
+  }
+  
+  .diet-container h1 {
+    font-size: 32px;
+    color: #FF8C00;
+    margin-bottom: 20px;
+  }
+  
+  .diet-category {
+    background-color: #fdf5e6;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .diet-category h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+  
+  .diet-category ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .diet-category li {
+    margin-bottom: 8px;
+    color: #444;
+    font-size: 16px;
+  }
+  
+  .tips-section {
+    background: #fff0da;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .tips-section h3 {
+    color: #d2691e;
+    margin-bottom: 10px;
+  }
+  
+  .tips-section ul {
+    list-style: disc inside;
+    color: #444;
+    font-size: 15px;
+  }
+  
+  /* Back Button */
+  .back-btn {
+    margin-top: 30px;
+    background-color: transparent;
+    color: #555;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #f0f0f0;
+  }
+  
